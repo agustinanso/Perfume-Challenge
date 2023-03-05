@@ -1,0 +1,177 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+
+
+
+
+/* MIS ESTILOS */
+
+.derecha {
+	background-color: rgb(233, 233, 233);
+	max-width: 50%;	
+	padding: 2rem;
+	
+}
+
+.izquierda {		
+	max-width: 50%;	
+}
+
+#pantalla-dividida {
+	display: flex;
+	max-width: 900px;
+	background-color:lightblue;
+	border-radius: 40px;
+	overflow: hidden;
+	box-shadow: 30px;
+}
+
+.low-price , .real-price , .prefume-content {
+
+	font-size: 40px;
+    
+}
+
+.explication {
+	margin-top: 20px;
+	margin-bottom: 50px;
+
+}
+
+body {
+	display: grid;
+	place-content: center;
+	background-color:rgb(248, 220, 167) ;
+}
+
+.descipcion {
+	font-weight: bold;
+	color: grey;
+}
+
+.prefume-content {
+	font-family:'Dancing Script' , cursive;
+	width: 100%;
+	margin-top: 1rem;
+	font-size: 60px;
+	margin-left: 0.5rem;
+}
+
+.explication {
+	font-size: 18px;
+	width: 90%;
+	margin: auto;
+	margin-top: 3rem;
+	
+}
+
+.precio {
+	display: flex;
+	margin-left: 5rem;
+    
+}
+
+.low-price , .real-price {
+	margin-top: 4rem;
+}
+
+
+	
+}
+
+.real-price {
+	margin-top:5rem;
+	font-size: 20px;
+	margin-left: 25px;
+	text-decoration: line-through;
+	color: rgb(102, 101, 101);
+}
+
+button {
+	border-radius: 30px;
+	background-color: rgb(80, 221, 80);
+	width: 80%;
+	border-style: hidden;
+	font-size: 20px;
+	color: aliceblue;
+}
+
+.button-wrapper {
+	justify-content: center;
+	display: flex;	
+    height: 50px;
+	margin-top: 3rem;
+}
+	
